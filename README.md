@@ -31,10 +31,10 @@
     to launch a redis 
      docker run -d --name my-redis -p 6379:6379 redis
 
-  
+    
     docker run -d -p 80:80 \             
         --link my-redis \               #link to the redis docker that running.
-        -e redis_host=my-redis \        #provide the app redis host.
+        -e redis_host=my-redis \        #provide redis host.
         --name counter-service \
          counter-service
     
