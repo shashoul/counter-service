@@ -43,6 +43,10 @@
 
     curl -X post localhost
     {OK}
+    curl -X post localhost
+    {OK}
+    curl -X post localhost
+    {OK}
 
     curl -X get localhost
-    Web server counter: 1
+    Web server counter: 3
