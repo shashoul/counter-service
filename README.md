@@ -39,4 +39,10 @@
          counter-service
     
 
+# Above assume running on port 80. Let us now test this.
 
+    curl -X post localhost
+    {OK}
+
+    curl -X get localhost
+    Web server counter: 1
