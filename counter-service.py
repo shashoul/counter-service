@@ -68,7 +68,7 @@ def counter_service_get():
 @app.route('/<path:user_path>', methods=['GET','POST'])
 def web_server(user_path):
     """
-        catch all routine.
+        catch all routes.
     """
     if request.method == "POST":
         return counter_service_post()
